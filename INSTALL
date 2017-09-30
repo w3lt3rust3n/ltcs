@@ -1,0 +1,16 @@
+  LTCS - Linux Terminal Cheat Sheets
+----------------------------------------
+  Copyright 2017 - Philentropy
+
+
+  INSTALL
+
+
+  Open a terminal and go to the source code directory ('src') and run the
+  classic commands:
+
+  make &&
+  sudo make install
+
+  If you have issues, contact us or ask for support at GitHub.
+  <philentropy@protonmail.ch>
