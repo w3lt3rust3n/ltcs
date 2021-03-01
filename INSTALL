@@ -1,15 +1,15 @@
   LTCS - Linux Terminal Cheat Sheets
 ----------------------------------------
-  Copyright 2021 - Maxence Buisson (Weltrusten)
+  Copyright 2021 - Maxence Buisson (Weltrusten) for Philentropy.
 
 
   INSTALL
 
+  You need CMake in order to compile the sources. Then open a terminal
+  and go to the 'src' directory and run the commands:
 
-  Open a terminal and go to the source code directory ('src') and run the
-  classic commands:
-
-  make &&
+  cmake . &&
+  make && 
   sudo make install
 
   If you have issues, contact us or ask for support at GitHub.
