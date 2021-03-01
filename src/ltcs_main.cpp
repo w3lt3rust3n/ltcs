@@ -172,6 +172,8 @@ int main(int argc, char *argv[])
 {
     //Setting up the program name by using argv[0]
     programName = argv[0];
+    LtcsUtils *ltcsUtils = new LtcsUtils;
+    ElCheats *elcheats = new ElCheats;
 
     /*
       Checking argument numbers to prevent error. If argc == 1 then LTCS is running
@@ -213,11 +215,11 @@ int main(int argc, char *argv[])
         }
         else if(strcmp("-c", argv[1]) == 0)
         {
-            ltcs_create_custom_cheatsheet();
+            ltcsUtils->ltcs_create_custom_cheatsheet();
         }
-        else if(strcmp("-a", argv[1]) == 0)
+        else if(strcmp("-x", argv[1]) == 0)
         {
-            ltcs_save_commandline();
+            ltcsUtils->ltcs_save_commandline();
         }
         else if(strcmp("-s", argv[1]) == 0)
         {
@@ -249,11 +251,11 @@ int main(int argc, char *argv[])
             }
             else if(strcmp("echoes", argv[2]) == 0)
             {
-                echoes_cheatsheet_display();
+                elcheats->echoes_cheatsheet_display();
             }
             else if(strcmp("npk", argv[2]) == 0)
             {
-                npk_cheatsheet_display();
+                elcheats->npk_cheatsheet_display();
             }
             else if(strcmp("all", argv[2]) == 0)
             {

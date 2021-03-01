@@ -1,21 +1,22 @@
 #include <iostream>
+#include "elcheats.h"
 
 using namespace std;
 
-Elcheats::Elcheats()
+ElCheats::ElCheats()
 {
 }
 
-Elcheats::~Elcheats()
+ElCheats::~ElCheats()
 {
 }
 
-void Elcheats::echoes_cheatsheet_display()
+void ElCheats::echoes_cheatsheet_display()
 {
     
 }
 
-void Elcheats::npk_cheatsheet_display()
+void ElCheats::npk_cheatsheet_display()
 {
     
 }

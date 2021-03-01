@@ -8,8 +8,8 @@
 class ElCheats
 {
 public:
-    Elcheats();
-    ~Elcheats();
+    ElCheats();
+    ~ElCheats();
     void echoes_cheatsheet_display();
     void npk_cheatsheet_display();
 private:
