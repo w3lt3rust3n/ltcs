@@ -8,7 +8,7 @@
   You need CMake in order to compile the sources. Then open a terminal
   and go to the 'src' directory and run the commands:
 
-  cmake . &&
+  cmake src &&
   make && 
   sudo make install
 

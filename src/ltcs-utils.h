@@ -16,6 +16,7 @@ public:
     ~LtcsUtils();
     void ltcs_create_custom_cheatsheet();
     void ltcs_save_commandline();
+    
 private:
     
 };
